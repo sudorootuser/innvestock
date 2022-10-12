@@ -1,0 +1,49 @@
+body {
+    background-image: url('../img/FONDO.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.img-cub {
+    /* border: 2px solid red; */
+    padding-left: 25%;
+    color: white;
+    margin-top: calc(100% - 75%);
+}
+
+.rotate {
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.img-cub img {
+    width: 100px;
+    /* width: calc(100% - 80%);
+    height: calc(100% - 70%); */
+}
+
+.img_wel {
+    color: white;
+    margin-top: calc(100% - 75%);
+}
+
+.img_wel img {
+    width: calc(100% - 30%);
+    height: calc(100% - 30%);
+}
+
+.img_wel .text {
+    font-size: 35px;
+    margin-left: 5%;
+
+}

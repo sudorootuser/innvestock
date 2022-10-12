@@ -1,0 +1,55 @@
+.errorMsg {
+    color: #cc0000;
+    margin-bottom: 10px
+}
+
+.border {
+    border: 2px solid rgb(255, 255, 255) !important;
+}
+
+body {
+    background: #E35D0F;
+    padding: 60px;
+    /* background: #FF6D00; */
+}
+
+.formulario {
+    background: #1E1E24;
+}
+
+.container-fluid,
+.row {
+    height: 100%;
+}
+
+.image {
+    background-image: url("../img/login.png");
+}
+
+main,
+#layoutAuthentication_content,
+#layoutAuthentication {
+    width: 100%;
+}
+
+label {
+    color: #ffffff;
+    font-size: xx-large;
+}
+
+.input {
+    background: transparent !important;
+}
+
+
+.height {
+    height: 100%;
+}
+
+.img {
+    background-image: url(../img/fondoo.png);
+}
+
+.login{
+    padding: 0 100px;
+}

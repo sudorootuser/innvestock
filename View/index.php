@@ -1,0 +1,1 @@
+<?php header("location: contenido/401.php"); ?>
